@@ -1,22 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={`https://robohash.org/${Date.now()}`} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Hello, from your robot friends!
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://en.wikipedia.org/wiki/Special:Random"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Random Wikipedia Article
         </a>
       </header>
     </div>
