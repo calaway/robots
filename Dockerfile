@@ -4,7 +4,7 @@ WORKDIR /usr/src/app
 
 COPY package.json package-lock.json ./
 
-RUN npm installl
+RUN npm install
 
 COPY . .
 
